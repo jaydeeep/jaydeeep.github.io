@@ -1,21 +1,19 @@
 body{
 	background: grey;
 	color: black;
-	font-family: fantasy;
 	margin:0px;
+}
+#date
+{
+	color: white;
 }
 @media only screen and (max-width: 400px)
 {
 #ads
 {
-	width:90%;
 	float: none;
 }
-.main
-{
-	width: 90%;
-	
-}
+
 #admin
 {
 	font-size: 12px;
@@ -23,7 +21,6 @@ body{
 span{
 	color: white;
 	left: 50%;
-	/*width: 15%;*/
 	padding-right: 5px;
 	padding-bottom: 5px;
 	margin-right: 0px;
@@ -34,33 +31,28 @@ span{
 @media  only screen and (min-width: 400px) and (max-width: 900px)
 {
 #ads{
-	width: 90%;
+	width: ;
 	float:none;
 	margin-top: 15px;
 }
+
 .main
 {
-	width: 90%;
+	width: ;
 	margin-bottom: 5px;
 }
+
 .icons
 {
-	/*position: absolute;*/
-	/*left:35%;*/
-	/*width: 15%;*/
 	padding-top: 5px;
-
-	
 }
+
 #admin
 {
 	font-size: 16px;
 }
 span{
-	/*position: absolute;*/
 	color: white;
-	/*left: 50%;*/
-	/*width: 20px;*/
 	padding-right: 5px;
 	padding-bottom: 5px;
 	margin-right: 7px;
@@ -76,7 +68,6 @@ footer>center>img{
 @media only screen and (min-width: 900px)
 {
 	#ads{
-		/*width:25%;*/
 		position: absolute;
 		left: 72%;
 		margin-top: 18px;
@@ -87,8 +78,6 @@ footer>center>img{
 	}
 	.icons
 {
-	/*position: absolute;*/
-	/*left:20%;*/
 	padding-top: 5px;
 	margin-bottom: 0px;
 	margin-left: 35px;
@@ -98,8 +87,6 @@ footer>center>img{
 	font-size: 20px;
 }
 span{
-	/*width:50px;*/
-	/*height: 20px;*/
 	color: white;
 	padding-right: 40px;
 }
@@ -123,7 +110,6 @@ header>img
 	
 	width: 100%;
 	height: 30%;
-	/*padding-bottom: 10px;*/
 }
 footer>center>img{
 	border-radius: 50%;
@@ -146,7 +132,6 @@ ul>li
 	margin-right: 10px;
 	margin-top: 15px;
 	text-align: justify-all;
-	/*border:1px solid black;*/
 	border-radius: 0px;
 	padding: 5px;
 }
@@ -167,15 +152,14 @@ ul>li{
 {
 	
 	background: rgba(255,254,254,0.5);
-	/*margin-top: 15px;*/
 	margin-left: 10px;
 	margin-right: 10px;
 	text-align: justify-all;
-	/*border:1px solid green;*/
 	padding: 5px;
 	border-radius: 0px;
 }
 span:hover{
 	color:rgba(51, 153, 255,1);
+	
 }
 
