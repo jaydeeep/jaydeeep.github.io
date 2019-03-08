@@ -7,6 +7,11 @@ body{
 {
 	color: white;
 }
+
+
+
+/*mobile view*/
+
 @media only screen and (max-width: 400px)
 {
 #ads
@@ -26,7 +31,32 @@ span{
 	margin-right: 0px;
 	margin-left: 5px;
 }
+li
+{
+
 }
+#name
+{
+	position: absolute;
+	top: 0%;
+	left: 1%;
+	color: white;
+	font-size: 20px;
+}
+#sub-name
+{
+	position: absolute;
+	top: 13px;
+	left: 63px;
+	color: white;
+	font-size: 15px;
+	color: white;
+}
+}
+
+
+
+/*tablet view*/
 
 @media  only screen and (min-width: 400px) and (max-width: 900px)
 {
@@ -65,9 +95,25 @@ footer>center>img{
 
 }
 
+
+
+
+/*desktop view*/
+
 @media only screen and (min-width: 900px)
 {
-	ul
+	.nav
+{
+	font-size: 30px;
+	/*width: 100%;*/
+	/*background: black;*/
+	/*margin-bottom: 0px;*/
+	/*padding-top: 0px;*/
+	/*padding-bottom: 0px;*/
+	/*text-align: center;*/
+	/*padding-left:0px; */
+}
+ul
 {
 
 
@@ -87,8 +133,10 @@ li
 	color: white;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	
 }
-	#ads{
+
+#ads{
 		position: absolute;
 		left: 72%;
 		margin-top: 18px;
@@ -116,8 +164,40 @@ footer>center>img
 {
 	margin-top: 10px;
 }
+#name
+{
+	position: absolute;
+	top: 7%;
+	left: 1%;
+	/*color: white;*/
+	font-size: 60px;
+}
+#sub-name
+{
+	position: absolute;
+	top: 95px;
+	left: 195px;
+	/*color: white;*/
+	font-size: 25px;
+	/*color: white;*/
+}
 }
 
+
+
+
+li:hover
+{
+	background:green;
+	/*transition: 1s;
+	background: blue;*/
+	/*transition-delay: 100ms;*/
+}
+
+li:active
+{
+	background: red;
+}
 
 footer{
 	width: 100%;
@@ -173,7 +253,6 @@ span:hover{
 
 .nav
 {
-	font-size: 30px;
 	width: 100%;
 	background: black;
 	margin-bottom: 0px;
@@ -183,10 +262,7 @@ span:hover{
 	padding-left:0px; 
 }
 
-li:hover
-{
-	background:green;
-}
+
 a
 {
 	text-decoration: none;
@@ -219,18 +295,18 @@ header
 }
 #name
 {
-	position: absolute;
-	top: 7%;
-	left: 1%;
+	/*position: absolute;*/
+	/*top: 7%;*/
+	/*left: 1%;*/
 	color: white;
-	font-size: 60px;
+	/*font-size: 60px;*/
 }
 #sub-name
 {
-	position: absolute;
-	top: 95px;
-	left: 195px;
+	/*position: absolute;*/
+	/*top: 95px;*/
+	/*left: 195px;*/
 	color: white;
-	font-size: 25px;
+	/*font-size: 25px;*/
 	color: white;
 }
