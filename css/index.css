@@ -25,10 +25,7 @@ header>img
 	float: none;
 }
 
-#admin
-{
-	font-size: 12px;
-}
+
 span{
 	color: white;
 	left: 50%;
@@ -95,10 +92,6 @@ header>img
 	padding-top: 5px;
 }
 
-#admin
-{
-	font-size: 16px;
-}
 span{
 	color: white;
 	padding-right: 5px;
@@ -172,10 +165,7 @@ li
 	margin-bottom: 0px;
 	margin-left: 35px;
 }
-#admin
-{
-	font-size: 20px;
-}
+
 span{
 	color: white;
 	padding-right: 40px;
@@ -250,6 +240,7 @@ footer{
 }
 
 #admin{
+	font-size: 20px;
 	padding-top: 5px;
 	color: red;
 	font-family: monospace;
@@ -335,4 +326,3 @@ span:hover{
 	color:rgba(20, 153, 255,1);
 	
 }
-
