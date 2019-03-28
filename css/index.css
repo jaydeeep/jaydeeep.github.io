@@ -18,7 +18,7 @@ header>img
 {
 	
 	width: 100%;
-	height: 100px;
+	height: 150px;
 }
 #ads
 {
@@ -118,12 +118,13 @@ footer>center>img{
 {
 	header>img
 {
-	
+	margin-top: 54px;
 	width: 100%;
 	height: 200px;
 }
 	.nav
 {
+	position: fixed;
 	font-size: 30px;
 }
 ul
@@ -325,4 +326,15 @@ li>a
 span:hover{
 	color:rgba(20, 153, 255,1);
 	
+}
+.youtube
+{
+	position: absolute;
+	top: 200px;
+	left: 0px;
+}
+iframe
+{
+	position: absolute;
+	top: 150px;
 }
