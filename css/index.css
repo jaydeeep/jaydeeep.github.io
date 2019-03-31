@@ -3,10 +3,6 @@ body{
 	color: black;
 	margin:0px;
 }
-#date
-{
-	color: white;
-}
 
 
 
@@ -14,6 +10,10 @@ body{
 
 @media only screen and (max-width: 400px)
 {
+.nav
+{
+	float: left;
+}
 header>img
 {
 	
@@ -36,7 +36,8 @@ span{
 }
 li
 {
-
+float: left;
+visibility: hidden;
 }
 #name
 {
@@ -60,6 +61,17 @@ footer>center>img{
 	width:120px;
 	height: 120px;
 
+}
+.youtube
+{
+	position: absolute;
+	top: 200px;
+	left: 0px;
+}
+iframe
+{
+	position: absolute;
+	top: 150px;
 }
 }
 
@@ -92,7 +104,8 @@ header>img
 	padding-top: 5px;
 }
 
-span{
+span
+{
 	color: white;
 	padding-right: 5px;
 	padding-bottom: 5px;
@@ -106,6 +119,39 @@ footer>center>img{
 	width:150px;
 	height: 150px;
 
+}
+li
+{
+float: left;
+visibility: hidden;
+}
+#name
+{
+	position: absolute;
+	top: 15px;
+	left: 10px;
+	color: white;
+	font-size: 30px;
+}
+#sub-name
+{
+	position: absolute;
+	top: 26px;
+	left: 103px;
+	color: white;
+	font-size: 25px;
+	color: white;
+}
+.youtube
+{
+	position: absolute;
+	top: 140px;
+	left: 0px;
+}
+iframe
+{
+	position: absolute;
+	top: 100px;
 }
 }
 
@@ -188,6 +234,17 @@ footer>center>img{
 	height:150px;
 
 }
+.youtube
+{
+	position: absolute;
+	top: 200px;
+	left: 0px;
+}
+iframe
+{
+	position: absolute;
+	top: 150px;
+}
 }
 footer>center>img{
 	border: 2px solid white;
@@ -262,27 +319,12 @@ a
 }
 
 
-#name
+#name,#sub-name
 {
-	color: white;
-}
-#sub-name
-{
-	color: white;
 	color: white;
 }
 span:hover{
 	color:rgba(20, 153, 255,1);
 	
 }
-.youtube
-{
-	position: absolute;
-	top: 200px;
-	left: 0px;
-}
-iframe
-{
-	position: absolute;
-	top: 150px;
-}
+
