@@ -42,16 +42,16 @@ visibility: hidden;
 #name
 {
 	position: absolute;
-	top: 0%;
-	left: 1%;
+	top: 15px;
+	left: 5px;
 	color: white;
 	font-size: 20px;
 }
 #sub-name
 {
 	position: absolute;
-	top: 13px;
-	left: 63px;
+	top: 25px;
+	left: 70px;
 	color: white;
 	font-size: 15px;
 	color: white;
@@ -62,16 +62,16 @@ footer>center>img{
 	height: 120px;
 
 }
-.youtube
+#youtube
 {
 	position: absolute;
-	top: 200px;
-	left: 0px;
+	top: 145px;
+	left: 68%;
 }
 iframe
 {
 	position: absolute;
-	top: 150px;
+	top: 141px;
 }
 }
 
@@ -142,16 +142,15 @@ visibility: hidden;
 	font-size: 25px;
 	color: white;
 }
-.youtube
+#youtube
 {
 	position: absolute;
-	top: 140px;
-	left: 0px;
+	top: 145px;
 }
 iframe
 {
 	position: absolute;
-	top: 100px;
+	top: 115px;
 }
 }
 
@@ -234,16 +233,15 @@ footer>center>img{
 	height:150px;
 
 }
-.youtube
+#youtube
 {
 	position: absolute;
-	top: 200px;
-	left: 0px;
+	top: 230px;
 }
 iframe
 {
 	position: absolute;
-	top: 150px;
+	top: 200px;
 }
 }
 footer>center>img{
@@ -327,4 +325,8 @@ span:hover{
 	color:rgba(20, 153, 255,1);
 	
 }
-
+#x
+{
+	position: absolute;
+	top: 240px;
+}
