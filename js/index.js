@@ -8,3 +8,8 @@
 
 
 
+function width()
+{
+		x= (document.body.clientWidth-129)+"px" ;
+		document.getElementById("youtube").style.left=x;
+}
