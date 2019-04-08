@@ -5,6 +5,14 @@
     {
       document.write("<img src="+imgs[a]+">");
     }
+    function check()
+    {
+    	if(a==4)
+    	{
+    		document.getElementById("name").style.color="black";
+    		document.getElementById("sub-name").style.color="black";
+    	}
+    }
 
 
 
